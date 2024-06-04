@@ -9,6 +9,7 @@ public class GameManager : MonoBehaviour
     public GameObject piedra1;
     public GameObject piedra2;
     public GameObject piedra3;
+    public GameObject beer;                                                                                                                 
     public Renderer fondo;
     public float velocidad = 2;
     public List<GameObject> columnas;
@@ -28,7 +29,8 @@ public class GameManager : MonoBehaviour
         }
         piedras.Add(Instantiate(piedra1, new Vector2(14, -2), Quaternion.identity));
         piedras.Add(Instantiate(piedra2, new Vector2(18, -2), Quaternion.identity));
-        piedras.Add(Instantiate(piedra3, new Vector2(22, -2), Quaternion.identity));
+        piedras.Add(Instantiate(beer, new Vector2(22, -2), Quaternion.identity));
+
 
     }
 
